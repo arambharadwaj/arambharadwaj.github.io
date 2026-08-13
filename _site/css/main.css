@@ -258,6 +258,26 @@ a:visited { color: #222; }
 .post-content ul,
 .post-content ol { padding-left: 20px; }
 
+/* Profile photo */
+.profile {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  max-width: 680px;
+}
+
+.dp {
+  flex: 0 0 auto;
+  width: 140px;
+  height: 140px;
+  border-radius: 50%;
+  object-fit: cover;
+  object-position: center 40%;
+}
+
+.profile-bio p { margin: 0 0 16px; }
+.profile-bio p:last-child { margin-bottom: 0; }
+
 .post pre,
 .post code {
   border: 1px solid #eee;
@@ -440,6 +460,17 @@ a:visited { color: #222; }
     line-height: 1.25;
     padding: 5px 10px;
     margin: 0;
+  }
+
+  .profile {
+    display: block;
+  }
+
+  .dp {
+    display: block;
+    margin: 0 0 20px;
+    width: 120px;
+    height: 120px;
   }
 
   .post-header h1 { font-size: 36px; }
