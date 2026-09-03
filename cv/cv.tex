@@ -35,13 +35,15 @@ Engineer turned AI safety researcher. Built production AI systems and led engine
 
 \textbf{AI Safety Researcher - LASR Labs @ Arcadia Impact} \hfill \textbf{Jan 2026 -- Present} \\
 \textit{London AI Safety Research (LASR) Labs} \\[2pt]
-\textit{EvalAwareBench: A Benchmark for Measuring Evaluation Awareness in Frontier Language Models.} \\
+\textit{EvalDetectBench: A Benchmark for Measuring Evaluation Awareness in Frontier Language Models.} \\
 K.~Ochwangi$^*$, X.~Li, \textbf{Aryasomayajula R.~Bharadwaj}$^*$. Under review at NeurIPS 2026. \textit{$^*$Equal contribution.}
 \begin{itemize}[leftmargin=*, nosep]
 \item Co-designed an open, Inspect-compatible pipeline for measuring evaluation awareness in frontier LLMs.
 \item Identified a novel generator-identity confound in evaluation-awareness measurement: the model generating deployment transcripts systematically biases judge scores -- an effect prior work did not isolate, and one large enough to reorder model rankings.
 \item Proposed a covariate-adjusted AUROC that corrects for the confound, restoring measurement validity with minimal error.
 \item Contributed to securing ~£100k funding for continuation of the evaluation-awareness research.
+\item Designed a red-team/blue-team control evaluation testing whether coding agents can covertly probe for environment realism, comparing various red-team strategies against blue-team monitors to see how they fare under a constrained audit budget
+
 \end{itemize}
 
 \entrygap
@@ -73,7 +75,7 @@ K.~Ochwangi$^*$, X.~Li, \textbf{Aryasomayajula R.~Bharadwaj}$^*$. Under review a
 \newpage
 \section{Research \& Publications}
 
-\textbf{\href{https://evaldetectbench.com}{EvalDetectBench: A Benchmark for Measuring Evaluation Awareness in Frontier Language Models}} \hfill \textbf{Under review, NeurIPS 2026} \\
+\textbf{\href{https://arxiv.org/abs/2609.01611}{EvalDetectBench: A Benchmark for Measuring Evaluation Awareness in Frontier Language Models}} \hfill \textbf{Under review, NeurIPS 2026} \\
 \textit{K.~Ochwangi$^*$, X.~Li, \textbf{Aryasomayajula R.~Bharadwaj}$^*$ \textmd{($^*$Equal contribution)}}
 \begin{itemize}[leftmargin=*, nosep]
 \item Open, Inspect-compatible benchmark for evaluation-awareness measurement. Identifies two methodological choices in prior work -- probe-question transfer across model families and transcript-generator identity -- that introduce systematic bias and can reorder model rankings; proposes per-model probe calibration and a stratified generator-harmonisation correction.
